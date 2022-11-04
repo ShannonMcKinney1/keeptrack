@@ -27,13 +27,13 @@ function ProjectCard(props: ProjectCardProps) {
         </h5>
         <p>{formatDescription(project.description)}</p>
         <p>Budget : {project.budget.toLocaleString()}</p>
-        <button className="bordered"
+        {/*<button className="bordered"
                   onClick={() => {
                   handleEditClick(project);
                   }}>
                   <span className="icon-edit "></span>
                   Edit
-                  </button>
+                </button>*/}
       </section>
       <ProjectForm></ProjectForm>
     </div>
