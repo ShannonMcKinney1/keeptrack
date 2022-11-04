@@ -1,0 +1,16 @@
+
+//used when creating a new project
+function blankProject{
+
+    id: 0,
+    name: '',
+    description: '',
+    imageUrl: '',
+    contractTypeId: 0,
+    contractSignedOn: '',
+    budget: 0,
+    isActive: false,
+
+};
+
+export default blankProject

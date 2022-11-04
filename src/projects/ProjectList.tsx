@@ -21,11 +21,7 @@ function ProjectList ({ projects }: any) {
     <div className="row">
       {projects.map((project: Project) => (
         <div key={project.id} className="cols-sm">
-          {/*project == projectBeingEdited ? (
-            <ProjectForm></ProjectForm> ) : (
-          <ProjectCard project={project} onEdit={handleEdit} />
-            )*/}
-          
+          {<ProjectCard project={project} onEdit={handleEdit} />}          
         </div>
       ))}
     </div>
